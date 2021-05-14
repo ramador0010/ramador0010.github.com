@@ -10,6 +10,7 @@ a{
 }
 .table{
   width: 100%;
+  border-spacing: 0;
 }
 html{
   font-family: 'Roboto', sans-serif;
