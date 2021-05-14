@@ -5,6 +5,9 @@ p
 a{
   text-decoration: none;
 }
+.title{
+  text-transform: uppercase;
+}
 html{
   font-family: 'Roboto', sans-serif;
 }
