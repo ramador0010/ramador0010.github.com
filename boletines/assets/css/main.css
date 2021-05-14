@@ -15,7 +15,9 @@ html{
   font-family: nombredemifuente;
   src:url(archivoFuente/fuente.woff);
 }
-
+.paragraph{
+  line-height: 1.8em;
+}
 .container{
   background: blue;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
