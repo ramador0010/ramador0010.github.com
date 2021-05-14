@@ -1,8 +1,39 @@
-p{
+p
+{
   color:red;
 }
-
+html{
+  font-family: 'Roboto', sans-serif;
+}
+@@font-face {
+  font-family: nombredemifuente;
+  src:url(archivoFuente/fuente.woff);
+}
 .container{
+  background: blue;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
   display: flex;
-  
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%
+  height: 100%;
+  background-color: white;
+}
+.red{
+  height:200px;
+  width:100px;
+  background-color: red;
+}
+#boton-pago
+{
+  background-color: yellow;
+}
+td{
+  border: solid 1px;
 }
