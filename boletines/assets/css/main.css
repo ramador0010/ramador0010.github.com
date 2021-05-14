@@ -8,6 +8,9 @@ a{
 .title{
   text-transform: uppercase;
 }
+.table{
+  width: 100%;
+}
 html{
   font-family: 'Roboto', sans-serif;
 }
@@ -17,6 +20,7 @@ html{
 }
 .paragraph{
   line-height: 1.8em;
+  font-weight: 500;
 }
 .container{
   background: blue;  /* fallback for old browsers */
