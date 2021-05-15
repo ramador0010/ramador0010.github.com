@@ -1,6 +1,6 @@
 p
 {
-  color:red;
+  color:blue;
 }
 a{
   text-decoration: none;
@@ -17,8 +17,8 @@ a{
   padding: 1em;
   text-align: left;
 }
-.table tr:nth-child(2){
-  background-color: red;
+.table tr:nth-child(even){
+  background-color: blue;
 }
 html{
   font-family: 'Roboto', sans-serif;
